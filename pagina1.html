@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con secciones</title>
+    <style>
+        /* Estilos CSS*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 200px;
+ 
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: #eee;
+            padding: 10px;
+        }
+        main{
+            margin: 100px;
+        }
+        article{
+            border: 1px;
+            color: turquoise;
+        }
+        footer{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- li>a*3 -->
+            <!--<li><a href="">Seccion 1 </a><a href=""> Seccion 2 </a><a href=""> Seccion 3 </a></li> -->
+            <!-- li*3 -->
+            <li><a href="#seccion">Seccion 1</a></li>
+            <li><a href="#seccion2">Seccion 2</a></li>
+            <li><a href="#seccion3">Seccion 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- section*3 -->
+        <section id="seccion">
+            <h2>Seccion 1</h2>
+            <p>Contenido de la seccion</p>
+            <a href="http://www.univalle.edu" target="_blank">Enlace a la Pagina UNIVALLE</a>
+        </section>
+        <secction id="seccion2">
+            <h2>Seccion 2 del articulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, veritatis ab. Voluptate consequuntur perferendis rerum autem pariatur, ex corporis molestias eveniet quod eligendi deserunt, quam dolor ducimus sed non! Ut!</p>
+            <a href="https://www.youtube.com/" target="_blank">Enlace a youtube</a>
+        </secction>
+        <secction id="seccion3">
+            <h2>Seccion 3 del articulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, veritatis ab. Voluptate consequuntur perferendis rerum autem pariatur, ex corporis molestias eveniet quod eligendi deserunt, quam dolor ducimus sed non! Ut!</p>
+            <a href="https://www.singanicasareal.com/" target="_blank">Enlace a Singani Casa Real</a>
+        </secction>
+        <article> <!-- seccion para dar texto -->
+            <h2>Articulo Pricipal</h2>
+            <p><a href="">Enlace a seccion 2</a></p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; Ejemplo de Html 2024 &excl; &aacute; &check; - Programacion Web - Univalle</p>
+    </footer>
+</body>
+</html>
