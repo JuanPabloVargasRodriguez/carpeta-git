@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de fans del Real Madrid</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+        }
+        main{
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+        }
+        article{
+            border: 1px solid turquoise;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .imagen-historia {
+            float: right; 
+            margin-left: 20px;
+            max-width: 50%;
+        }
+        .imagen-jugador {
+            width: 100px;
+            height: auto; 
+            display: block; /* Para que la imagen no tenga márgenes innecesarios */
+            margin: auto;
+            margin-bottom: 10px; 
+        }
+        .jugadores-container {
+            display: flex;
+            justify-content: space-between; /* Para distribuir los jugadores uniformemente */
+            flex-wrap: wrap; /* Para que los jugadores se envuelvan cuando no haya suficiente espacio */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Real Madrid C.F.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#seccion">Historia</a></li>
+            <li><a href="#seccion2">Jugadores</a></li>
+            <li><a href="#seccion3">Títulos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="seccion">
+            <h2>Historia</h2>
+            <div class="imagen-historia">
+                <img src="https://assets-es.imgfoot.com/media/cache/800x800/realmadridhome2223.jpg" alt="Equipación del Real Madrid" width="70%">
+            </div>
+            <p>El Real Madrid Club de Fútbol es un club de fútbol profesional con sede en Madrid, España, fundado en 1902. Es uno de los clubes de fútbol más exitosos del mundo, habiendo ganado numerosos títulos nacionales e internacionales.</p>
+            <p>El Real Madrid Club de Fútbol es uno de los clubes de fútbol más prestigiosos y exitosos del mundo. Fue fundado el 6 de marzo de 1902 en Madrid, España, bajo el nombre de "Sociedad Madrid Football Club". En 1920, el rey Alfonso XIII otorgó el título de "Real" al club, convirtiéndolo en Real Madrid.
+
+                A lo largo de su historia, el Real Madrid ha ganado innumerables títulos nacionales e internacionales, convirtiéndose en uno de los equipos más laureados del mundo. El club ha ganado un récord de 34 títulos de La Liga, la principal competición de fútbol en España, así como un récord de 13 títulos de la Liga de Campeones de la UEFA, la competición de clubes más prestigiosa de Europa.
+                
+                El Real Madrid ha sido hogar de numerosos jugadores legendarios, incluidos Alfredo Di Stéfano, Ferenc Puskás, Zinedine Zidane, Ronaldo, Raúl González, Cristiano Ronaldo y muchos más. Estos jugadores han contribuido en gran medida al éxito del club tanto a nivel nacional como internacional.
+                
+                El equipo juega sus partidos de local en el icónico Estadio Santiago Bernabéu, que ha sido testigo de innumerables momentos históricos del fútbol. La camiseta del Real Madrid es reconocida por su diseño blanco tradicional y es una de las más emblemáticas en el mundo del fútbol.</p>
+            <a href="https://es.wikipedia.org/wiki/Real_Madrid_Club_de_F%C3%BAtbol" target="_blank">Más información en Wikipedia</a>
+        </section>
+        <section id="seccion2">
+            <h2>Jugadores Emblemáticos</h2>
+            <div class="jugadores-container">
+            <p>El Real Madrid ha tenido a lo largo de su historia numerosos jugadores legendarios, incluyendo a Alfredo Di Stéfano, Cristiano Ronaldo, Raúl González, Ferenc Puskás, Zinedine Zidane, y muchos más.</p>
+            <div class="jugador">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--914bcfe0-f610-4610-a77e-6ea53c53f630/_330603286208.app.png?preferwebp=true&width=312" alt="Cristiano Ronaldo" class="imagen-jugador">
+                <a href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">Cristiano Ronaldo</a>
+            </div>
+            <div class="jugador">
+                <img src="https://3.bp.blogspot.com/-jgs3O8xveOs/TeTY71ohrhI/AAAAAAAAA8w/QYGQ18Qs52o/s1600/Alfredo+Di+Stefano.jpg" alt="Alfredo Di Stéfano" class="imagen-jugador">
+                <a href="https://es.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano" target="_blank">Alfredo Di Stéfano</a>
+            </div>
+            <div class="jugador">
+                <img src="https://miro.medium.com/v2/resize:fit:397/1*YwauufwOvtqYZda6KHEA2w.jpeg" alt="Raúl González" class="imagen-jugador">
+                <a href="https://es.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez_Blanco" target="_blank">Raúl González</a>
+            </div>
+            <div class="jugador">
+                <img src="data:image/jpeg;base64,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" alt="Fernando Hierro" class="imagen-jugador">
+                <a href="https://es.wikipedia.org/wiki/Fernando_Hierro" target="_blank">Fernando Hierro</a>
+            </div>
+            <div class="jugador">
+                <img src="https://m.media-amazon.com/images/M/MV5BODkwZThiMjItNGM3ZC00YzZiLThiNTMtNmY4NzI2M2NkMGZjXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg" alt="Iker Casillas" class="imagen-jugador">
+                <a href="https://es.wikipedia.org/wiki/Iker_Casillas" target="_blank">Iker Casillas</a>
+            </div>
+            </div>
+        </section>
+    </section>
+    <section id="seccion3">
+        <h2>Títulos</h2>
+        <h3>El Real Madrid ha ganado múltiples títulos tanto a nivel nacional como internacional, entre los que se incluyen:</h3>
+        <p>La Liga: 34 títulos (1931–32, 1932–33, 1953–54, 1954–55, 1956–57, 1957–58, 1960–61, 1961–62, 1962–63, 1963–64, 1964–65, 1966–67, 1967–68, 1968–69, 1971–72, 1974–75, 1975–76, 1977–78, 1978–79, 1979–80, 1985–86, 1986–87, 1987–88, 1988–89, 1989–90, 1994–95, 1996–97, 2000–01, 2002–03, 2006–07, 2007–08, 2011–12, 2016–17, 2019–20)</p>
+        <p>Copa del Rey (Copa de Su Majestad el Rey de Fútbol): 19 títulos (1904, 1905, 1906, 1907, 1908, 1917, 1934, 1936, 1946, 1947, 1961–62, 1969–70, 1973–74, 1974–75, 1979–80, 1981–82, 1988–89, 1992–93, 2010–11)</p>
+        <p>Supercopa de España: 11 títulos (1988, 1989, 1990, 1993, 1997, 2001, 2003, 2008, 2012, 2017, 2019–20)</p>
+        <p>Liga de Campeones de la UEFA (anteriormente conocida como Copa de Europa): 13 títulos (1955–56, 1956–57, 1957–58, 1958–59, 1959–60, 1965–66, 1997–98, 1999–2000, 2001–02, 2013–14, 2015–16, 2016–17, 2017–18)</p>
+        <p>Supercopa de Europa: 5 títulos (2002, 2014, 2016, 2017, 2018)</p>
+        <p>Copa Intercontinental: 3 títulos (1960, 1998, 2002)</p>
+        <p>Mundial de Clubes de la FIFA: 4 títulos (2014, 2016, 2017, 2018)</p>
+        <p>Copa Eva Duarte (predecesora de la Supercopa de España): 1 título (1947)</p>
+        <p>Pequeña Copa del Mundo de Clubes (actualmente conocida como Copa Euroamericana): 1 título (1952)</p>
+        <p>Copa de la UEFA (actualmente conocida como Liga Europa de la UEFA): 2 títulos (1984–85, 1985–86)</p>
+        <a href="https://www.realmadrid.com/es-ES/el-club/palmares/futbol" target="_blank">Consulta el palmarés del Real Madrid</a>
+    </section>
+    <article>
+        <h2>¡Hala Madrid!</h2>
+        <p>¡Mejor equipo del mundo!</p>
+    </article>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2024 - Página de fans del Real Madrid - Programación Web - Universidad del Valle</p>
+</footer>
+</html>
